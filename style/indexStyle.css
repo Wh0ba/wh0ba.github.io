@@ -1,0 +1,85 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	background: #fff;
+	
+	
+	--bggl: #141e30;
+	--bggr: #243b55;
+	
+	background: -webkit-linear-gradient(to right, var(--bggl), var(--bggr));
+	background: linear-gradient(to right, var(--bggl), var(--bggr));   
+	
+	
+} 
+
+
+
+
+a {
+	text-decoration: none;
+}
+a:visited a:active {
+	color: red;
+}
+
+
+.topDiv {
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	
+}
+
+
+
+.fontic {
+color: #fff;
+font-family: "American Typewriter", serif;
+}
+
+
+.disable-hover {
+    pointer-events: none;
+}
+
+.link-item {
+    list-style-type: none;
+    padding: 17px 15px;
+    display: block;
+    color: #337ab7 !important;
+    text-align: left;
+}
+
+.link-item:hover {
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
+    background-color: #fff;
+}
+
+html.can-touch .link-item:active{ /* disable hover effect when input is touch */
+    background-color: #f5f5f5;
+}
+
+
+
+.fa {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width:620px) {
+	/* For mobile phones: */
+}
+
+
+
