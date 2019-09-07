@@ -6,8 +6,8 @@ body {
 	background: #fff;
 	
 	
-	--bggl: #141e30;
-	--bggr: #243b55;
+	--bggl: #333399;
+	--bggr: #ff00cc;
 	
 	background: -webkit-linear-gradient(to right, var(--bggl), var(--bggr));
 	background: linear-gradient(to right, var(--bggl), var(--bggr));   
